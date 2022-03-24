@@ -471,6 +471,9 @@
   }
 }
 @media screen and (max-width: 1024px) and (min-width: 768px) {
+  .head p {
+    margin: 0 25vw 3vh 25vw;
+  }
   .download {
     width: 60vw;
     margin-top: 5vh;
@@ -479,6 +482,10 @@
     width: 25vw;
     height: 6vh;
   }
+  .snippets p {
+    margin: 0 25vw 8vh 25vw;
+  }
+
   #computer {
     height: 100%;
     width: 60%;
@@ -486,6 +493,12 @@
   }
   .description {
     margin-top: 0;
+  }
+  .clipboard {
+    margin-top: 8vh;
+  }
+  .clipboard p {
+    margin: 0vh 16vw;
   }
   .sponsors {
     margin: 0 5% 20vh 5%;
@@ -495,6 +508,10 @@
   }
   .sponsors a img {
     height: 4vh;
+  }
+  .apple p {
+    margin: 0 16% 2% 16%;
+    line-height: 1.8rem;
   }
   #logo__footer {
     margin: 6vh 6vw 6vh 6vw;
