@@ -1,0 +1,54 @@
+.snippets {
+  margin-top: 10vh;
+  margin-bottom: 8vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.snippets h2 {
+  margin: 0.75em 4vw;
+  line-height: 2.3rem;
+}
+.snippets p {
+  margin: 0 10vw;
+  line-height: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .snippets h2 {
+    line-height: 1rem;
+  }
+  .snippets p {
+    margin: 0 25vw;
+    line-height: 1.5rem;
+  }
+}
+@media screen and (max-width: 1439px) and (min-width: 1024px) {
+  .snippets h2 {
+    line-height: 1rem;
+  }
+  .snippets p {
+    margin: 0 30vw;
+    line-height: 1.5rem;
+  }
+}
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+  .snippets h2 {
+    line-height: 1rem;
+  }
+  .snippets p {
+    margin: 0 30vw;
+    line-height: 1.5rem;
+  }
+}
+@media screen and (min-width: 1921px) {
+  .snippets h2 {
+    line-height: 1rem;
+  }
+  .snippets p {
+    margin: 0 30vw;
+    line-height: 1.5rem;
+  }
+}

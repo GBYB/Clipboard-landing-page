@@ -1,0 +1,49 @@
+.apple {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 18vh;
+}
+.apple h2 {
+  margin: 0 10%;
+  line-height: 2rem;
+}
+.apple p {
+  margin: 3% 10% 0 10%;
+  line-height: 1.8rem;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .apple h2 {
+    margin: 0.75em 0;
+  }
+  .apple p {
+    margin: 0 16% 2% 16%;
+  }
+}
+@media screen and (max-width: 1439px) and (min-width: 1024px) {
+  .apple h2 {
+    margin: 0.75em 0;
+  }
+  .apple p {
+    margin: 0 32% 2% 32%;
+  }
+}
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+  .apple h2 {
+    margin: 0.75em 0;
+  }
+  .apple p {
+    margin: 0 32% 2% 32%;
+  }
+}
+@media screen and (min-width: 1921px) {
+  .apple h2 {
+    margin: 0.75em 0;
+  }
+  .apple p {
+    margin: 0 32% 2% 32%;
+  }
+}
