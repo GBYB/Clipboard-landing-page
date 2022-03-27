@@ -31,7 +31,8 @@
     align-items: stretch;
   }
   #computer {
-    margin: 0 6vw;
+    margin-right: 6vw;
+    margin-left: 0;
   }
   .description {
     margin: 0 0 7vh 0;
@@ -57,6 +58,10 @@
     justify-content: flex-start;
     align-items: stretch;
   }
+  #computer {
+    margin-right: 9vw;
+    margin-left: 0;
+  }
   .description {
     margin: 0;
     display: flex;
@@ -79,7 +84,10 @@
     justify-content: flex-start;
     align-items: stretch;
   }
-
+  #computer {
+    margin-right: 9vw;
+    margin-left: 0;
+  }
   .description {
     margin: 7vh 0 7vh 0;
     display: flex;
@@ -103,7 +111,10 @@
     justify-content: flex-start;
     align-items: stretch;
   }
-
+  #computer {
+    margin-right: 9vw;
+    margin-left: 0;
+  }
   .description {
     margin: 7vh 0 7vh 0;
     display: flex;
