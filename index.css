@@ -82,6 +82,9 @@
 }
 
 @media screen and (max-width: 1439px) and (min-width: 1024px) {
+  .container h2 {
+    font-size: 2rem;
+  }
   .container h3 {
     font-size: 1.4rem;
   }
@@ -106,6 +109,9 @@
   }
 }
 @media screen and (max-width: 1920px) and (min-width: 1440px) {
+  .container h2 {
+    font-size: 2.4rem;
+  }
   .container h3 {
     font-size: 1.4rem;
   }
