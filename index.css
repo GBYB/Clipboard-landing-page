@@ -40,10 +40,9 @@
   width: 55vw;
   height: 5vh;
   font-size: 0.8rem;
-  line-height: 2.5rem;
   color: white;
   padding: 0;
-  border-radius: 12vh;
+  border-radius: 12rem;
   border: 1px transparent;
 }
 .download button:first-child {
@@ -65,7 +64,7 @@
   }
 
   .download {
-    width: 60vw;
+    width: 42vw;
     margin-top: 5vh;
     display: flex;
     flex-direction: row;
@@ -73,9 +72,12 @@
     align-items: stretch;
   }
   .download button {
-    width: 25vw;
+    width: 20vw;
     height: 6vh;
     font-size: 1rem;
+  }
+  .download button:first-child {
+    margin-bottom: 0;
   }
 }
 
@@ -87,7 +89,7 @@
     font-size: 1.125rem;
   }
   .download {
-    width: 60vw;
+    width: 32vw;
     margin-top: 5vh;
     display: flex;
     flex-direction: row;
@@ -95,9 +97,12 @@
     align-items: stretch;
   }
   .download button {
-    width: 25vw;
+    width: 14vw;
     height: 6vh;
     font-size: 1rem;
+  }
+  .download button:first-child {
+    margin-bottom: 0;
   }
 }
 @media screen and (max-width: 1920px) and (min-width: 1440px) {
@@ -119,6 +124,9 @@
     width: 12vw;
     height: 6vh;
     font-size: 1rem;
+  }
+  .download button:first-child {
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 1921px) {
@@ -150,5 +158,8 @@
     width: 12vw;
     height: 6vh;
     font-size: 1rem;
+  }
+  .download button:first-child {
+    margin-bottom: 0;
   }
 }
