@@ -15,7 +15,7 @@
     margin: 0 10vw;
     margin-bottom: 2vh;
   }
-  .top {
+  &__title {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,14 +43,14 @@
     p {
       margin: 0 25vw 3vh 25vw;
     }
-    .top {
+    &__title {
       background-size: 100% 100%;
     }
   }
 }
 @media screen and (max-width: 1439px) and (min-width: 1024px) {
   .head {
-    .top {
+    &__title {
       background-size: 100% 100%;
     }
     h1 {
@@ -63,7 +63,7 @@
 }
 @media screen and (max-width: 1920px) and (min-width: 1440px) {
   .head {
-    .top {
+    &__title {
       background-size: 100% 100%;
     }
     h1 {
@@ -76,7 +76,7 @@
 }
 @media screen and (min-width: 1921px) {
   .head {
-    .top {
+    &__title {
       background-size: 100% 100%;
     }
     h1 {

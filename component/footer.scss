@@ -10,7 +10,7 @@
     height: 8vh;
     width: auto;
   }
-  .support {
+  &__support {
     display: grid;
     margin-top: 2vh;
     grid-template-columns: auto;
@@ -45,19 +45,19 @@
       }
     }
   }
-  .socials {
+  &__socials {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 
-    .socials__links {
+    &__links {
       margin: 0;
       display: flex;
       justify-content: center;
       align-items: center;
       text-align: center;
 
-      .logo {
+      #logo-links {
         text-decoration: none;
         height: fit-content;
         width: fit-content;
@@ -69,7 +69,7 @@
         }
       }
     }
-    .attribution {
+    &__attribution {
       text-align: center;
       font-size: 1rem;
       a {
@@ -89,7 +89,7 @@
     #logo__footer {
       margin: 6vh 6vw 6vh 6vw;
     }
-    .support {
+    &__support {
       grid-template-columns: repeat(3, 14vw);
       grid-template-rows: repeat(2, 8vh);
       text-align: left;
@@ -107,19 +107,19 @@
         grid-column: 3;
       }
     }
-    .socials {
-      .socials__links {
+    &__socials {
+      &__links {
         margin: 12% 12% 0 12%;
         display: block;
 
-        .logo {
+        #logo-links {
           svg {
             width: 12%;
             margin-right: 3%;
           }
         }
       }
-      .attribution {
+      &__attribution {
         font-size: 0.9rem;
         text-align: right;
       }
@@ -137,7 +137,7 @@
     #logo__footer {
       margin: 6vh 6vw 6vh 16vw;
     }
-    .support {
+    &__support {
       grid-template-columns: repeat(3, 14vw);
       grid-template-rows: repeat(2, 8vh);
       text-align: left;
@@ -155,19 +155,19 @@
         grid-column: 3;
       }
     }
-    .socials {
-      .socials__links {
+    &__socials {
+      &__links {
         margin: 12% 12% 0 12%;
         display: block;
 
-        .logo {
+        #logo-links {
           svg {
             width: 12%;
             margin-right: 3%;
           }
         }
       }
-      .attribution {
+      &__attribution {
         font-size: 0.9rem;
         text-align: right;
       }
@@ -185,7 +185,7 @@
     #logo__footer {
       margin: 6vh 6vw 6vh 16vw;
     }
-    .support {
+    &__support {
       grid-template-columns: repeat(3, 10vw);
       grid-template-rows: repeat(2, 8vh);
       text-align: left;
@@ -202,19 +202,19 @@
         grid-column: 3;
       }
     }
-    .socials {
-      .socials__links {
+    &__socials {
+      &__links {
         margin: 8% 12% 0 12%;
         display: block;
 
-        .logo {
+        #logo-links {
           svg {
             width: 7%;
             margin-right: 3%;
           }
         }
       }
-      .attribution {
+      &__attribution {
         font-size: 1.2rem;
         text-align: right;
       }
@@ -232,7 +232,7 @@
     #logo__footer {
       margin: 6vh 6vw 6vh 16vw;
     }
-    .support {
+    &__support {
       grid-template-columns: repeat(3, 10vw);
       grid-template-rows: repeat(2, 8vh);
       text-align: left;
@@ -249,19 +249,19 @@
         grid-column: 3;
       }
     }
-    .socials {
-      .socials__links {
+    &__socials {
+      &__links {
         margin: 10% 0% 0 50%;
         display: block;
 
-        .logo {
+        #logo-links {
           svg {
             width: 7%;
             margin-right: 3%;
           }
         }
       }
-      .attribution {
+      &__attribution {
         font-size: 1.2rem;
         text-align: right;
       }

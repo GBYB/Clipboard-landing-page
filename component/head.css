@@ -16,7 +16,7 @@
   margin: 0 10vw;
   margin-bottom: 2vh;
 }
-.head .top {
+.head__title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -43,12 +43,12 @@
   .head p {
     margin: 0 25vw 3vh 25vw;
   }
-  .head .top {
+  .head__title {
     background-size: 100% 100%;
   }
 }
 @media screen and (max-width: 1439px) and (min-width: 1024px) {
-  .head .top {
+  .head__title {
     background-size: 100% 100%;
   }
   .head h1 {
@@ -59,7 +59,7 @@
   }
 }
 @media screen and (max-width: 1920px) and (min-width: 1440px) {
-  .head .top {
+  .head__title {
     background-size: 100% 100%;
   }
   .head h1 {
@@ -70,7 +70,7 @@
   }
 }
 @media screen and (min-width: 1921px) {
-  .head .top {
+  .head__title {
     background-size: 100% 100%;
   }
   .head h1 {
