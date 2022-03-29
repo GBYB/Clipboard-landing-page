@@ -1,80 +1,86 @@
 .footer {
+  height: -webkit-max-content;
+  height: -moz-max-content;
   height: max-content;
-  background-color: rgb(245, 246, 248);
+  background-color: #f5f6f8;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-#logo__footer {
+.footer #logo__footer {
   margin: 6vh 0vw;
   height: 8vh;
   width: auto;
 }
-.support {
+.footer .support {
   display: grid;
   margin-top: 2vh;
   grid-template-columns: auto;
   grid-template-rows: repeat(5, 1fr);
   text-align: center;
 }
-.support h4 {
+.footer .support h4 {
   font-size: 1.2rem;
   font-weight: 400;
 }
-.support h4 a {
+.footer .support h4 a {
   text-decoration: none;
-  color: hsl(210, 10%, 33%);
+  color: #4c545d;
 }
-.support h4:nth-child(1) {
+.footer .support h4 :nth-child(1) {
   grid-row: 1;
   grid-column: 1;
 }
-.support h4:nth-child(2) {
+.footer .support h4 :nth-child(2) {
   grid-row: 2;
   grid-column: 1;
 }
-.support h4:nth-child(3) {
+.footer .support h4 :nth-child(3) {
   grid-row: 3;
   grid-column: 1;
 }
-.support h4:nth-child(4) {
+.footer .support h4 :nth-child(4) {
   grid-row: 4;
   grid-column: 1;
 }
-.support h4:nth-child(5) {
+.footer .support h4 :nth-child(5) {
   grid-row: 5;
   grid-column: 1;
 }
-.socials {
+.footer .socials {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.socials__links {
+.footer .socials .socials__links {
   margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
-.logo {
+.footer .socials .socials__links .logo {
   text-decoration: none;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
   height: fit-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
-.logo svg {
-  color: hsl(210, 10%, 33%);
+.footer .socials .socials__links .logo svg {
+  color: #4c545d;
   height: auto;
   width: 18%;
   margin-right: 0;
 }
-.attribution {
+.footer .socials .attribution {
   text-align: center;
-  font-size: 0.5rem;
+  font-size: 1rem;
 }
-.attribution a {
-  color: hsl(228, 45%, 44%);
+.footer .socials .attribution a {
+  color: #3e52a3;
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
@@ -85,45 +91,36 @@
     justify-content: space-around;
     align-items: stretch;
   }
-
-  #logo__footer {
+  .footer #logo__footer {
     margin: 6vh 6vw 6vh 6vw;
   }
-  .support {
-    margin-top: 2vh;
-    display: grid;
+  .footer .support {
     grid-template-columns: repeat(3, 14vw);
     grid-template-rows: repeat(2, 8vh);
     text-align: left;
   }
-
-  .support h4:nth-child(3) {
+  .footer .support :nth-child(3) {
     grid-row: 1;
     grid-column: 2;
   }
-  .support h4:nth-child(4) {
+  .footer .support :nth-child(4) {
     grid-row: 2;
     grid-column: 2;
   }
-  .support h4:nth-child(5) {
+  .footer .support :nth-child(5) {
     grid-row: 1;
     grid-column: 3;
   }
-
-  .socials__links {
+  .footer .socials .socials__links {
     margin: 12% 12% 0 12%;
     display: block;
   }
-
-  .logo svg {
-    color: hsl(210, 10%, 33%);
-    height: auto;
+  .footer .socials .socials__links .logo svg {
     width: 12%;
     margin-right: 3%;
   }
-
-  .attribution {
-    font-size: 0.6875rem;
+  .footer .socials .attribution {
+    font-size: 0.9rem;
     text-align: right;
   }
 }
@@ -135,47 +132,37 @@
     justify-content: space-around;
     align-items: stretch;
   }
-
-  #logo__footer {
+  .footer #logo__footer {
     margin: 6vh 6vw 6vh 16vw;
   }
-  .support {
-    margin-top: 2vh;
-    display: grid;
+  .footer .support {
     grid-template-columns: repeat(3, 14vw);
     grid-template-rows: repeat(2, 8vh);
     text-align: left;
   }
-
-  .support h4:nth-child(3) {
+  .footer .support :nth-child(3) {
     grid-row: 1;
     grid-column: 2;
   }
-  .support h4:nth-child(4) {
+  .footer .support :nth-child(4) {
     grid-row: 2;
     grid-column: 2;
   }
-  .support h4:nth-child(5) {
+  .footer .support :nth-child(5) {
     grid-row: 1;
     grid-column: 3;
   }
-
-  .socials__links {
+  .footer .socials .socials__links {
     margin: 12% 12% 0 12%;
     display: block;
   }
-
-  .logo svg {
+  .footer .socials .socials__links .logo svg {
     width: 12%;
     margin-right: 3%;
   }
-
-  .attribution {
-    font-size: 0.6875rem;
+  .footer .socials .attribution {
+    font-size: 0.9rem;
     text-align: right;
-  }
-  .attribution {
-    font-size: 0.6875rem;
   }
 }
 @media screen and (max-width: 1920px) and (min-width: 1440px) {
@@ -186,45 +173,36 @@
     justify-content: space-around;
     align-items: stretch;
   }
-
-  #logo__footer {
+  .footer #logo__footer {
     margin: 6vh 6vw 6vh 16vw;
   }
-  .support {
-    margin-top: 2vh;
-    display: grid;
+  .footer .support {
     grid-template-columns: repeat(3, 10vw);
     grid-template-rows: repeat(2, 8vh);
     text-align: left;
   }
-
-  .support h4:nth-child(3) {
+  .footer .support :nth-child(3) {
     grid-row: 1;
     grid-column: 2;
   }
-  .support h4:nth-child(4) {
+  .footer .support :nth-child(4) {
     grid-row: 2;
     grid-column: 2;
   }
-  .support h4:nth-child(5) {
+  .footer .support :nth-child(5) {
     grid-row: 1;
     grid-column: 3;
   }
-
-  .socials__links {
+  .footer .socials .socials__links {
     margin: 8% 12% 0 12%;
     display: block;
   }
-
-  .logo svg {
-    color: hsl(210, 10%, 33%);
-    height: auto;
+  .footer .socials .socials__links .logo svg {
     width: 7%;
     margin-right: 3%;
   }
-
-  .attribution {
-    font-size: 0.6875rem;
+  .footer .socials .attribution {
+    font-size: 1.2rem;
     text-align: right;
   }
 }
@@ -236,45 +214,36 @@
     justify-content: space-around;
     align-items: stretch;
   }
-
-  #logo__footer {
+  .footer #logo__footer {
     margin: 6vh 6vw 6vh 16vw;
   }
-  .support {
-    margin-top: 2vh;
-    display: grid;
+  .footer .support {
     grid-template-columns: repeat(3, 10vw);
     grid-template-rows: repeat(2, 8vh);
     text-align: left;
   }
-
-  .support h4:nth-child(3) {
+  .footer .support :nth-child(3) {
     grid-row: 1;
     grid-column: 2;
   }
-  .support h4:nth-child(4) {
+  .footer .support :nth-child(4) {
     grid-row: 2;
     grid-column: 2;
   }
-  .support h4:nth-child(5) {
+  .footer .support :nth-child(5) {
     grid-row: 1;
     grid-column: 3;
   }
-
-  .socials__links {
+  .footer .socials .socials__links {
     margin: 10% 0% 0 50%;
     display: block;
   }
-
-  .logo svg {
-    color: hsl(210, 10%, 33%);
-    height: auto;
+  .footer .socials .socials__links .logo svg {
     width: 7%;
     margin-right: 3%;
   }
-
-  .attribution {
-    font-size: 0.6875rem;
+  .footer .socials .attribution {
+    font-size: 1.2rem;
     text-align: right;
   }
-}
+}/*# sourceMappingURL=footer.css.map */

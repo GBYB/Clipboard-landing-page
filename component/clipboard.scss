@@ -1,0 +1,87 @@
+.clipboard {
+  margin-top: 9vh;
+  margin-bottom: 6vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h2 {
+    margin: 0vh 4vw;
+    line-height: 2.3rem;
+    text-align: center;
+  }
+  p {
+    margin: 2vh 10vw;
+    line-height: 2rem;
+    text-align: center;
+  }
+  #devices {
+    margin: 4vh 0;
+    height: 100%;
+    width: 65%;
+  }
+}
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .clipboard {
+    margin-top: 8vh;
+    margin-bottom: 0;
+    h2 {
+      margin: 0.75em 0;
+      line-height: 0.5rem;
+    }
+    p {
+      margin: 0vh 16vw;
+    }
+    #devices {
+      margin: 9vh 0;
+    }
+  }
+}
+@media screen and (max-width: 1439px) and (min-width: 1024px) {
+  .clipboard {
+    margin-top: 14vh;
+    margin-bottom: 0;
+    h2 {
+      margin: 0.75em 0;
+      line-height: 0.5rem;
+    }
+    p {
+      margin: 0vh 32vw;
+    }
+    #devices {
+      margin: 9vh 0;
+    }
+  }
+}
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+  .clipboard {
+    margin-top: 14vh;
+    margin-bottom: 0;
+    h2 {
+      margin: 0.75em 0;
+      line-height: 0.5rem;
+    }
+    p {
+      margin: 0vh 32vw;
+    }
+    #devices {
+      margin: 9vh 0;
+    }
+  }
+}
+@media screen and (min-width: 1921px) {
+  .clipboard {
+    margin-top: 14vh;
+    margin-bottom: 0;
+    h2 {
+      margin: 0.75em 0;
+      line-height: 0.5rem;
+    }
+    p {
+      margin: 0vh 32vw;
+    }
+    #devices {
+      margin: 9vh 0;
+    }
+  }
+}

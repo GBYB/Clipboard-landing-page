@@ -1,0 +1,91 @@
+.sponsors {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10% 35% 10%;
+}
+.sponsors a {
+  margin-top: 8vh;
+}
+.sponsors a img {
+  height: 5%;
+  width: auto;
+}
+.sponsors img {
+  height: 5%;
+  width: auto;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .sponsors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 0 5% 20vh 5%;
+  }
+  .sponsors a {
+    margin-top: 0;
+  }
+  .sponsors a img {
+    height: 4vh;
+  }
+  .sponsors img {
+    height: 4vh;
+  }
+}
+@media screen and (max-width: 1439px) and (min-width: 1024px) {
+  .sponsors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 0 10% 20vh 10%;
+  }
+  .sponsors a {
+    margin-top: 0;
+  }
+  .sponsors a img {
+    height: 5vh;
+  }
+  .sponsors img {
+    height: 5vh;
+  }
+}
+@media screen and (max-width: 1920px) and (min-width: 1440px) {
+  .sponsors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 0 10% 20vh 10%;
+  }
+  .sponsors a {
+    margin-top: 0;
+  }
+  .sponsors a img {
+    height: 5vh;
+  }
+  .sponsors img {
+    height: 5vh;
+  }
+}
+@media screen and (min-width: 1921px) {
+  .sponsors {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 0 10% 20vh 10%;
+  }
+  .sponsors a {
+    margin-top: 0;
+  }
+  .sponsors a img {
+    height: 5vh;
+  }
+  .sponsors img {
+    height: 5vh;
+  }
+}/*# sourceMappingURL=sponsors.css.map */

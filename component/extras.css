@@ -37,16 +37,15 @@
 .extras__list div h3 {
   height: 20%;
 }
-
-#blacklist {
+.extras__list div #blacklist {
   height: 100%;
   width: auto;
 }
-#text {
+.extras__list div #text {
   height: 100%;
   width: auto;
 }
-#preview {
+.extras__list div #preview {
   height: 100%;
   width: auto;
 }
@@ -81,17 +80,15 @@
     margin: 0 10%;
     line-height: 1.8rem;
   }
-  #blacklist {
+  .extras__list div #blacklist {
     height: 16%;
     width: auto;
   }
-
-  #text {
+  .extras__list div #text {
     height: 16%;
     width: auto;
   }
-
-  #preview {
+  .extras__list div #preview {
     margin: 0.75% 0;
     height: 12%;
     width: auto;
@@ -127,17 +124,15 @@
     margin: 0 10%;
     line-height: 1.8rem;
   }
-  #blacklist {
+  .extras__list div #blacklist {
     height: 16%;
     width: auto;
   }
-
-  #text {
+  .extras__list div #text {
     height: 16%;
     width: auto;
   }
-
-  #preview {
+  .extras__list div #preview {
     margin: 0.75% 0;
     height: 12%;
     width: auto;
@@ -173,17 +168,15 @@
     margin: 0 10%;
     line-height: 1.8rem;
   }
-  #blacklist {
+  .extras__list div #blacklist {
     height: 16%;
     width: auto;
   }
-
-  #text {
+  .extras__list div #text {
     height: 16%;
     width: auto;
   }
-
-  #preview {
+  .extras__list div #preview {
     margin: 0.75% 0;
     height: 12%;
     width: auto;
@@ -219,19 +212,17 @@
     margin: 0 10%;
     line-height: 1.8rem;
   }
-  #blacklist {
+  .extras__list div #blacklist {
     height: 16%;
     width: auto;
   }
-
-  #text {
+  .extras__list div #text {
     height: 16%;
     width: auto;
   }
-
-  #preview {
+  .extras__list div #preview {
     margin: 0.75% 0;
     height: 12%;
     width: auto;
   }
-}
+}/*# sourceMappingURL=extras.css.map */

@@ -4,17 +4,17 @@
   justify-content: center;
   align-items: center;
   margin: 0 10% 35% 10%;
-}
-.sponsors a {
-  margin-top: 8vh;
-}
-.sponsors img {
-  height: 5%;
-  width: auto;
-}
-.sponsors a img {
-  height: 5%;
-  width: auto;
+  a {
+    margin-top: 8vh;
+    img {
+      height: 5%;
+      width: auto;
+    }
+  }
+  img {
+    height: 5%;
+    width: auto;
+  }
 }
 
 @media screen and (max-width: 1024px) and (min-width: 768px) {
@@ -24,17 +24,18 @@
     justify-content: space-around;
     align-items: stretch;
     margin: 0 5% 20vh 5%;
-  }
-  .sponsors a {
-    margin-top: 0;
-  }
-  .sponsors img {
-    height: 4vh;
-  }
-  .sponsors a img {
-    height: 4vh;
+    a {
+      margin-top: 0;
+      img {
+        height: 4vh;
+      }
+    }
+    img {
+      height: 4vh;
+    }
   }
 }
+
 @media screen and (max-width: 1439px) and (min-width: 1024px) {
   .sponsors {
     display: flex;
@@ -42,17 +43,18 @@
     justify-content: space-around;
     align-items: stretch;
     margin: 0 10% 20vh 10%;
-  }
-  .sponsors a {
-    margin-top: 0;
-  }
-  .sponsors img {
-    height: 5vh;
-  }
-  .sponsors a img {
-    height: 5vh;
+    a {
+      margin-top: 0;
+      img {
+        height: 5vh;
+      }
+    }
+    img {
+      height: 5vh;
+    }
   }
 }
+
 @media screen and (max-width: 1920px) and (min-width: 1440px) {
   .sponsors {
     display: flex;
@@ -60,17 +62,18 @@
     justify-content: space-around;
     align-items: stretch;
     margin: 0 10% 20vh 10%;
-  }
-  .sponsors a {
-    margin-top: 0;
-  }
-  .sponsors img {
-    height: 5vh;
-  }
-  .sponsors a img {
-    height: 5vh;
+    a {
+      margin-top: 0;
+      img {
+        height: 5vh;
+      }
+    }
+    img {
+      height: 5vh;
+    }
   }
 }
+
 @media screen and (min-width: 1921px) {
   .sponsors {
     display: flex;
@@ -78,14 +81,14 @@
     justify-content: space-around;
     align-items: stretch;
     margin: 0 10% 20vh 10%;
-  }
-  .sponsors a {
-    margin-top: 0;
-  }
-  .sponsors img {
-    height: 5vh;
-  }
-  .sponsors a img {
-    height: 5vh;
+    a {
+      margin-top: 0;
+      img {
+        height: 5vh;
+      }
+    }
+    img {
+      height: 5vh;
+    }
   }
 }

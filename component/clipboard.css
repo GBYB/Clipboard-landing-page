@@ -16,7 +16,7 @@
   line-height: 2rem;
   text-align: center;
 }
-#devices {
+.clipboard #devices {
   margin: 4vh 0;
   height: 100%;
   width: 65%;
@@ -34,11 +34,10 @@
   .clipboard p {
     margin: 0vh 16vw;
   }
-  #devices {
+  .clipboard #devices {
     margin: 9vh 0;
   }
 }
-
 @media screen and (max-width: 1439px) and (min-width: 1024px) {
   .clipboard {
     margin-top: 14vh;
@@ -51,7 +50,7 @@
   .clipboard p {
     margin: 0vh 32vw;
   }
-  #devices {
+  .clipboard #devices {
     margin: 9vh 0;
   }
 }
@@ -67,7 +66,7 @@
   .clipboard p {
     margin: 0vh 32vw;
   }
-  #devices {
+  .clipboard #devices {
     margin: 9vh 0;
   }
 }
@@ -83,7 +82,7 @@
   .clipboard p {
     margin: 0vh 32vw;
   }
-  #devices {
+  .clipboard #devices {
     margin: 9vh 0;
   }
-}
+}/*# sourceMappingURL=clipboard.css.map */
