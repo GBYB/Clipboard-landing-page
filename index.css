@@ -1,11 +1,11 @@
-@import "/component/head.css";
-@import "/component/snippets.css";
-@import "/component/features.css";
-@import "/component/clipboard.css";
-@import "/component/extras.css";
-@import "/component/sponsors.css";
-@import "/component/apple.css";
-@import "/component/footer.css";
+@import "component/head.css";
+@import "component/snippets.css";
+@import "component/features.css";
+@import "component/clipboard.css";
+@import "component/extras.css";
+@import "component/sponsors.css";
+@import "component/apple.css";
+@import "component/footer.css";
 .body {
   height: 100vh;
 }
